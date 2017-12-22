@@ -66,16 +66,9 @@ public class CreateDictionary {
 		return dictionary.get(definition);
 	}
 
-/*	// Insert new word and definition to dictionary
-	public String insertWord(String word, String def) {
-		List<String> definition = new ArrayList<String>();
-		definition.add(def);
-		dictionary.put(word, definition);
-		return "Word and Definition have been Added to Dictionary";
-	}*/
-
 	// get full dictionary
 	public HashMap<String, List<String>> getDict() {
 		return this.dictionary;
 	}
 }
+
